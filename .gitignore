@@ -1,14 +1,28 @@
-venv
-staticfiles
-./db.sqlite3
-.idea
-*~
+# local database and exported data (never commit participant data)
+db.sqlite3
 *.sqlite3
-_static_root
-_bots*s
-__temp*
+*.json
+*.csv
+*.otreezip
+
+# Python / virtual environments
+venv/
+.venv/
+env/
 __pycache__/
 *.py[cod]
-.DS_Store
-*.otreezip
+
+# oTree / Django build artifacts
+staticfiles/
+_static_root/
+__temp_static_root/
+__temp*
+_bots*s
+
+# editors and OS
+.idea/
+.vscode/
+*~
 .~*
+.DS_Store
+.env

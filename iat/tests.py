@@ -1,6 +1,10 @@
 """
 Implicit Association Test (IAT) experiment -- automated tests.
 
+Modified in 2022 by Ferley Rincon and the gender-STEM study team (Apache-2.0, section 4b):
+Spanish gender-STEM stimuli and images, welcome page with participant code and group,
+adapted templates; bot updated for the welcome page in 2026.
+
 November 2019
 Markus Konrad <markus.konrad@wzb.eu>
 """

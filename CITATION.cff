@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "IAT Sexo-STEM: oTree implementation of a gender-STEM Implicit Association Test and survey (field version, Chía, Colombia, 2022)"
+type: software
+authors:
+  - family-names: "Medrano León"
+    given-names: "Elvia Carolina"
+  - family-names: "Carrillo Cadena"
+    given-names: "Riky Andrés"
+  - family-names: "Rincón"
+    given-names: "Ferley"
+repository-code: "https://github.com/ferleyrincon/works"
+license: Apache-2.0
+version: "3.0.0"
+date-released: "2026-11-22"
+# doi: 10.5281/zenodo.XXXXXXX   # placeholder: add once a DOI is minted
+keywords:
+  - oTree
+  - Implicit Association Test
+  - gender
+  - STEM
+  - field experiment
+references:
+  - type: software
+    title: "Implicit Association Test (IAT) experiment for oTree"
+    authors:
+      - family-names: "Konrad"
+        given-names: "Markus"
+      - family-names: "Semken"
+        given-names: "Christoph"
+    repository-code: "https://github.com/WZBSocialScienceCenter/otree_iat"
+    license: Apache-2.0

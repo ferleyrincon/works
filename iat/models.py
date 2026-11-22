@@ -1,6 +1,10 @@
 """
 Implicit Association Test (IAT) experiment -- models.
 
+Modified in 2022 by Ferley Rincon and the gender-STEM study team (Apache-2.0, section 4b):
+Spanish gender-STEM stimuli and images, welcome page with participant code and group,
+adapted templates; bot updated for the welcome page in 2026.
+
 Dynamic data points for IAT trials are collected in custom data model "Trial". See Konrad 2018 [1] for an article
 on collection dynamic data with oTree.
 
