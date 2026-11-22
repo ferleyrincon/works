@@ -1,3 +1,34 @@
+# IAT Sexo-STEM: Implicit Association Test (gender × STEM) in oTree
+
+oTree 3 application used in October 2022 with eleventh-grade students of a public technical high school in Chía, Colombia. It implements a gender–science Implicit Association Test (IAT) followed by a survey on career aspirations and beliefs about STEM.
+
+- **Study:** STEM role models and educational aspirations of adolescent girls (Medrano León, Carrillo Cadena and Rincón). Based on the master's thesis by Medrano León and Carrillo Cadena (2023), Escuela de Gobierno Alberto Lleras Camargo, Universidad de los Andes.
+- **Working paper:** in preparation. A link will be added here when it is publicly available.
+- **Maintainer:** Ferley Rincón ([@ferleyrincon](https://github.com/ferleyrincon)).
+- **Version:** v3, the version used in the field (26 September 2022). It was restored on 22 November 2026 after accidental changes on 17 November 2022 removed the `iat/` and `survey/` apps. The history is preserved.
+
+## Apps and session
+
+| App | What it does |
+|---|---|
+| `iat` | Welcome, instructions and the 7-block gender × science IAT. Each trial is stored with its response time in milliseconds |
+| `survey` | 14-page questionnaire on aspirations, careers and STEM beliefs |
+
+## Run locally
+
+Tested on 2026-11-22 with Python 3.8 and the pinned packages. Python 3.7.9 is the version in `runtime.txt`.
+
+```
+pip install -r requirements.txt
+otree devserver
+otree test iat        # bots complete the 7 IAT blocks
+```
+
+## Credits
+
+The IAT app is adapted from the oTree IAT implementation by Markus Konrad (WZB Berlin Social Science Center), reproduced below under its original license (see `LICENSE`).
+
+---
 # Implicit Association Test (IAT) experiment for oTree
 
 March 2021, Markus Konrad <markus.konrad@wzb.eu> / <post@mkonrad.net> / [Berlin Social Science Center](https://wzb.eu)
