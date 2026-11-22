@@ -6,9 +6,15 @@ derived from the field definition in models.py (first choice, minimum, or a shor
 It does not change the survey; it only checks that all 14 pages can be completed.
 """
 
+from otree.api import Submission
+
 from . import pages
 from ._builtin import Bot
 from .models import Player
+
+# Pages whose submit button is created by JavaScript, so the bot's static HTML check cannot see it.
+# They are covered by the devserver walk-through (see README / replication notes).
+NO_HTML_CHECK = {'saber11', 'occupation'}
 
 
 def _valid_value(field_name):
@@ -25,4 +31,5 @@ def _valid_value(field_name):
 class PlayerBot(Bot):
     def play_round(self):
         for page in pages.page_sequence:
-            yield (page, {name: _valid_value(name) for name in page.form_fields})
+            data = {name: _valid_value(name) for name in page.form_fields}
+            yield Submission(page, data, check_html=page.__name__ not in NO_HTML_CHECK)
