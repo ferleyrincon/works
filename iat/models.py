@@ -39,7 +39,7 @@ Adapted from: https://github.com/WZBSocialScienceCenter/otree_iat/blob/master/ia
 
 #
 # configuration of stimuli: attribute and concept levels and stimuli words
-# these are just made up stimuli; fill in your own
+# (the Spanish gender-STEM stimuli used in the field, September 2022)
 #
 
 STIMULI = {
@@ -69,7 +69,7 @@ IMAGES = {
 }
 
 #
-# configuration of practice and Prueba blocks
+# configuration of the 7 practice and test blocks (fixed order, as in the field)
 #
 
 BLOCKS = [

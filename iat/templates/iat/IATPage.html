@@ -5,8 +5,6 @@
 {% block scripts %}
     <!-- custom style sheet-->
     <link href="{% static 'css/iat.css' %}" rel="stylesheet">
-    <!-- functions and more javascript -->
-    <script src="{% static 'js/iat.js' %}"></script>
     <script>
 var KEYCODES_SIDES = {{ keycodes_sides|json }};
 var SIDES_KEYCODES = {{ sides_keycodes|json }};

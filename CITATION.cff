@@ -1,32 +1,60 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "IAT Sexo-STEM: oTree implementation of a gender-STEM Implicit Association Test and survey (field version, Chía, Colombia, 2022)"
 type: software
+title: "Code for: One Talk Shifts Beliefs About Science Jobs but Not Detectably Gender Beliefs: A Randomized Role-Model Visit in a Colombian Technical High School"
+abstract: "oTree 3.3.11 code of a field experiment with 210 eleventh-grade students in Chía, Colombia (September 2022): a 7-block gender-STEM Implicit Association Test followed by a 14-page survey. Adapted from WZB's otree_iat. Contains no participant data."
 authors:
   - family-names: "Medrano León"
     given-names: "Elvia Carolina"
+    affiliation: "Universidad de los Andes"
   - family-names: "Carrillo Cadena"
     given-names: "Riky Andrés"
+    affiliation: "Universidad de los Andes"
   - family-names: "Rincón"
     given-names: "Ferley"
-repository-code: "https://github.com/ferleyrincon/works"
-license: Apache-2.0
-version: "3.0.0"
+    affiliation: "Fundación Memories"
+version: "1.0.0"
 date-released: "2026-11-22"
-# doi: 10.5281/zenodo.XXXXXXX   # placeholder: add once a DOI is minted
+license: Apache-2.0
+repository-code: "https://github.com/ferleyrincon/works"
 keywords:
   - oTree
   - Implicit Association Test
   - gender
   - STEM
+  - role models
   - field experiment
 references:
   - type: software
-    title: "Implicit Association Test (IAT) experiment for oTree"
+    title: "otree_iat: Implicit Association Test (IAT) experiment for oTree"
     authors:
       - family-names: "Konrad"
         given-names: "Markus"
-      - family-names: "Semken"
-        given-names: "Christoph"
     repository-code: "https://github.com/WZBSocialScienceCenter/otree_iat"
     license: Apache-2.0
+  - type: article
+    title: "oTree—An open-source platform for laboratory, online, and field experiments"
+    authors:
+      - family-names: "Chen"
+        given-names: "Daniel L."
+      - family-names: "Schonger"
+        given-names: "Martin"
+      - family-names: "Wickens"
+        given-names: "Chris"
+    journal: "Journal of Behavioral and Experimental Finance"
+    volume: 9
+    start: 88
+    end: 97
+    year: 2016
+    doi: "10.1016/j.jbef.2015.12.001"
+  - type: article
+    title: "oTree: Implementing experiments with dynamically determined data quantity"
+    authors:
+      - family-names: "Konrad"
+        given-names: "Markus"
+    journal: "Journal of Behavioral and Experimental Finance"
+    volume: 21
+    start: 58
+    end: 60
+    year: 2019
+    doi: "10.1016/j.jbef.2018.10.006"

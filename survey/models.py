@@ -10,10 +10,10 @@ from otree.api import (
 )
 import random
 
-author = 'Your name here'
+author = 'Ferley Rincon and the gender-STEM study team'
 
 doc = """
-Your app description
+Post-IAT survey of the gender-STEM field study (14 pages, Spanish).
 """
 
 class Constants(BaseConstants):

@@ -22,7 +22,7 @@ class PlayerBot(Bot):
 
     def play_round(self):
         if self.round_number == 1:
-            yield (pages.welcome, {'identificador': 'AC11022005', 'treatment': random.choice([0, 1])})
+            yield (pages.welcome, {'identificador': 'ZZ01012005', 'treatment': random.choice([0, 1])})
             yield pages.Intro
 
         block_def = BLOCKS[self.round_number - 1]

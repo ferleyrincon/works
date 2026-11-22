@@ -1,7 +1,7 @@
-# oTree settings for the gender-STEM IAT field study (Chia, Colombia, October 2022).
+# oTree settings for the gender-STEM IAT field study (Chia, Colombia, 26-29 September 2022).
 # Modified from the settings of Markus Konrad's otree_iat (Apache-2.0): the field
 # session ('questions' = IAT + survey), Spanish locale and COP currency were added;
-# Heroku rooms and test sessions were removed in 2026 for the replication package.
+# Heroku rooms, test sessions and BROWSER_COMMAND were removed in 2026 for the replication package.
 
 from os import environ
 import importlib.util
@@ -25,7 +25,7 @@ SESSION_CONFIG_DEFAULTS = {
 SESSION_CONFIGS = [
     dict(
         name='questions',
-        display_name="questions",
+        display_name="IAT Sexo-STEM + encuesta (version de campo)",
         num_demo_participants=1,
         app_sequence=['iat', 'survey'],
     ),

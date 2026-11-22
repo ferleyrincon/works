@@ -26,3 +26,6 @@ _bots*s
 .~*
 .DS_Store
 .env
+
+# synthetic bot output is versioned on purpose (never real data)
+!sample_data/*.csv
